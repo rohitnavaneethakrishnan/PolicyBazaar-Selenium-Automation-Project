@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="testcases.TravelInsuranceDetails">
+        <methods>
+          <include name="sort"/>
+          <include name="setup"/>
+          <include name="start"/>
+          <include name="opentravelinsurancepage"/>
+          <include name="fill"/>
+          <include name="age"/>
+          <include name="dest"/>
+          <include name="click"/>
+          <include name="close"/>
+          <include name="productdetails"/>
+          <include name="student"/>
+          <include name="flushReports"/>
+        </methods>
+      </class> <!-- testcases.TravelInsuranceDetails -->
+      <class name="testcases.HealthInsurancelist">
+        <methods>
+          <include name="gethealthmenu"/>
+          <include name="close"/>
+          <include name="flushReports"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testcases.HealthInsurancelist -->
+      <class name="testcases.CarInsuranceErrorMessage">
+        <methods>
+          <include name="type"/>
+          <include name="filldetails"/>
+          <include name="screenshot"/>
+          <include name="city"/>
+          <include name="setup"/>
+          <include name="carbrand"/>
+          <include name="flushReports"/>
+          <include name="clickcarbutton"/>
+          <include name="proceed"/>
+          <include name="close"/>
+          <include name="year"/>
+          <include name="carmodel"/>
+          <include name="varient"/>
+        </methods>
+      </class> <!-- testcases.CarInsuranceErrorMessage -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

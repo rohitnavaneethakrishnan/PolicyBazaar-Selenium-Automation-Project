@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="1" name="PolicyBazaarTests" preserve-order='True'>
+    <classes>
+       <class name = "testcases.TravelInsuranceDetails"/>
+       <class  name= "testcases.CarInsuranceErrorMessage"/>
+       <class name = "testcases.HealthInsurancelist"/>
+      
+     
+      </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+ 
